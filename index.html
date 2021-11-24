@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width,initial-scale">
+    <meta http-equiv="X-UA-Compatible" content="ie-edge">
+    <title>Formulario de registro </title>
+</head>
+<body>
+    <h2>Formulario de resgistro</h2>
+    <formulario>
+        <etiqueta fnombre ="fname">Nombre: </etiqueta> 
+        <input type="text" name="Nombre" id="nombre" placeholder="Añade tu Nombre"> <br>
+        <etiqueta fapellidos ="fname">Apellidos: </etiqueta> 
+        <input type="text" name="Apellidos" id="apellidos" placeholder="Añade tus Apellidos"> <br>
+        <etiqueta sexo="lsexo">Sexo: </etiqueta>
+        <input type= "radio" id="sexo" name="Sexo:">
+        <etiqueta hombre="hombre">hombre</etiqueta>
+        <input type= "radio" id="sexo-mujer" name="Sexo-mujer:">
+        <etiqueta mujer="mujer">mujer</etiqueta> <br>
+        <etiqueta fcorreo ="fcorreo">Correo: </etiqueta>
+        <input type="text" name="correo" id="correo" placeholder="Añade tu Correo electrónico"> <br>
+        <label for= "Poblacion"> Polación:</label>
+        <select id= "Poblacion" name="Poblacion">
+            <option value="Alicante">Alicante</option>
+            <option value="Madrid">Madrid</option>
+            <option value="Sevilla">Sevilla</option>
+            <option value="Valencia">Valencia</option>
+        </select>
+        <br>
+        <etiqueta ldescripción="descripción">Descripción: </etiqueta>
+        <textarea name="Descripción" rows="5" cols="50" ></textarea><br>
+        <input type="checkbox" id="informacion" name="informacion">
+        <etiqueta para="informacion">Deseo recibir información sobre novedades y ofertas.</etiqueta><br>
+        <input type="checkbox" id="condiciones" name="condiciones">
+        <etiqueta para="condiciones">Declaro haber leído y aceptar las condiciones generales del programa y la normativa sobre protección de datos.</etiqueta><br>
+        <input type="submit" value="Enviar">
+    </formulario>
+  
+</body>
+</html>
